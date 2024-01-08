@@ -228,4 +228,10 @@ input:checked ~ .bubble::after {
 .todo-item.done .todo-content input {
 	text-decoration: line-through;
 	color: var(--grey);
+
+}
+
+.todo-content input{
+	width: 100%;
+	max-width:25rem ;
 }
